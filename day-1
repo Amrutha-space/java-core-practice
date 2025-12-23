@@ -1,0 +1,33 @@
+class Demo {
+    public static void main(String args[])
+    {
+        int num1 =5;
+        int num2 = 9;
+         int result = 0;
+
+         result = num1<0?5:10;
+
+         int i = 0;
+         while(i<0)
+         {
+            System.out.println(i);
+            i++;
+         }
+         if(num1>num2)
+       {
+        System.out.println("hi");
+       }
+       else if (num1<num2)
+       {
+        System.out.println("hello");
+       }
+        System.out.println("Hello World");
+        System.out.println(result);
+
+   show();
+    }
+    public static void show()
+    {
+        System.out.println("in show");
+    }
+}

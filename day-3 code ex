@@ -1,0 +1,44 @@
+
+
+#### how variable works 
+
+class College {
+    static String collegeName = "IIT Delhi";
+
+    int studentId;
+
+    void display() {
+        System.out.println(studentId + " " + collegeName);
+    }
+}
+
+class Demo {
+    public static void main(String[] args) {
+        College c1 = new College();
+        c1.studentId = 101;
+
+        College c2 = new College();
+        c2.studentId = 102;
+
+        c1.display();
+        c2.display();
+    }
+}
+
+
+### how datatypes work!!1
+
+  
+class Demo {
+    public static void main(String[] args) {
+        int age = 21;
+        double marks = 85.5;
+        char grade = 'A';
+        boolean passed = true;
+
+        System.out.println(age);
+        System.out.println(marks);
+        System.out.println(grade);
+        System.out.println(passed);
+    }
+}

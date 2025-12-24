@@ -1,0 +1,41 @@
+###try catch
+
+try {
+    ** risky code
+} catch (ExceptionType e) {
+    ** handling code
+}
+
+###finally
+
+class Demo {
+    public static void main(String[] args) {
+        try {
+            int x = 10 / 2;
+        } catch (Exception e) {
+            System.out.println("Error");
+        } finally {
+            System.out.println("Always executed");
+        }
+    }
+}
+
+###throw 
+
+class Demo {
+    static void checkAge(int age) {
+        if (age < 18) {
+            throw new ArithmeticException("Not eligible to vote");
+        }
+        System.out.println("Eligible");
+    }
+
+    public static void main(String[] args) {
+        checkAge(16);
+    }
+}
+
+
+###throws(multiple exceptions)
+
+

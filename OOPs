@@ -1,0 +1,90 @@
+### Encapsulation
+
+class BankAccount {
+
+    private double balance;   
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+    public double getBalance() {
+        return balance;
+    }
+}
+ 
+### inheritance
+ 
+class Vehicle {
+    int speed = 60;
+
+    void move() {
+        System.out.println("Vehicle is moving");
+    }
+}
+
+class Car extends Vehicle {
+    void fuel() {
+        System.out.println("Car uses petrol");
+    }
+}
+
+class Demo {
+    public static void main(String[] args) {
+        Car c = new Car();
+        c.move();       
+        c.fuel();     
+        System.out.println(c.speed); 
+    }
+}
+
+###polymorphism
+
+class Payment {
+    void pay() {
+        System.out.println("Payment method");
+    }
+}
+
+class UPI extends Payment {
+    void pay() {
+        System.out.println("Paying using UPI");
+    }
+}
+
+class Card extends Payment {
+    void pay() {
+        System.out.println("Paying using Card");
+    }
+}
+
+class Demo {
+    public static void main(String[] args) {
+
+        Payment p;
+
+        p = new UPI();
+        p.pay();
+
+        p = new Card();
+        p.pay();
+    }
+}
+
+#### abstraction
+
+class UPI implements Payment {
+    public void pay() {
+        System.out.println("Paying via UPI");
+    }
+}
+
+class Card implements Payment {
+    public void pay() {
+        System.out.println("Paying via Card");
+    }
+}
+
+
+
+

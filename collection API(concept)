@@ -1,0 +1,14 @@
+generics 
+
+
+import java.util.ArrayList;
+class Demo {
+public static void main(String args[])
+{
+  Array List nums = new ArrayList();
+nums.add(4);
+nums.add(5);
+nums.add(9);
+
+System.out.println(nums.get(index:2));
+System.out.println(nums);

@@ -1,0 +1,13 @@
+For connecting Java to the Database ..
+
+!.Import packages 
+2. Load driver
+3.Register Driver 
+4.Create connection 
+5.Create Statement 
+6.execute 
+then Response will be shown
+
+
+Can be done my any DBMS such as mysql, postgresql.
+

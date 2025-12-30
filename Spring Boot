@@ -1,3 +1,9 @@
 Spring boot is a frame work for JAVA which almost acts as BACKEND. We don't need to learn many languages for the Backend. Spring alone is enough for the backend 
 Many users use it because, It has :-
 Faster development, Built-in server — no manual deployment, Easy integration with databases, Supports Microservices, Used widely in real-world projects.
+
+Spring Boot Basics
+--Project structure, Beans, Autowiring
+--Build first REST API
+
+

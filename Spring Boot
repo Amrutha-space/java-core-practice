@@ -6,4 +6,11 @@ Spring Boot Basics
 --Project structure, Beans, Autowiring
 --Build first REST API
 
+for CRUD based operations in Spring boot, I've used IntelliJ and MYSQL.
+In the beginning, we need to create controller, entity,repository , service packages in the project folder
+we've created.
+We have to write the code for the packages by creating the classes with the name of our choice.
+
+then run the program , make sure to execute without any errors !!
+
 

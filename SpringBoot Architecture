@@ -1,0 +1,9 @@
+Don't write DB logic in Controller
+don't call Repository directly from Controller
+don't mix DTO & Entity carelessly
+
+- Controller → calls Service
+- Service → calls Repository
+- Repository → talks to DB
+We have to make sure that everything is connected and and to get the output the IDE is running
+every repo has it's own class.

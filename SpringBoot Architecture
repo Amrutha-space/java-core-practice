@@ -7,3 +7,15 @@ don't mix DTO & Entity carelessly
 - Repository → talks to DB
 We have to make sure that everything is connected and and to get the output the IDE is running
 every repo has it's own class.
+
+--- Pagination, Sorting, Filtering, API patterns
+.Pagination (page, size)
+.Sorting (sort=field,asc|desc)
+.Filtering (query params like name, email, gender)
+
+for every method you need to add the considerate code block to existing code 
+we then nned to check whether the API is working or not 
+POSTMAN will give result according to the data given and API searched.
+
+
+
